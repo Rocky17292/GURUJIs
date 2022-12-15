@@ -73,4 +73,29 @@
   padding: 3rem 0;
   padding-bottom: 2.5rem;
 }
+/* <!-- =============================================================
+               GET IN TOUCH
+============================================================= --> */
+.get-in-ip-ms{
+  padding: 1rem 0;
+}
+.get-in-ip{
+  padding: 0.5rem 0;
+}
+/* <!-- =============================================================
+               CONTACT
+============================================================= --> */
+.contact-box{
+  background-color: #97DECE;
+  margin: 5% 7%;
+  padding: 5% 7%;
+}
+.contact-img{
+  border-radius: 100%;
+  height: 50px;
 
+  margin: 0.5rem auto;
+}
+.contact-h{
+  margin: 1rem auto 3rem auto;
+}
