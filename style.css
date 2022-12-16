@@ -99,3 +99,25 @@
 .contact-h{
   margin: 1rem auto 3rem auto;
 }
+/* <!-- =============================================================
+               ABOUT US
+============================================================= --> */
+.baba{
+  height: 100px;
+  border-radius: 100%;
+}
+.dada{
+  height: 100px;
+  border-radius: 100%;
+}
+#br{
+  height: 2px;
+}
+.about-box-1{
+  background-color:  #F8F988;
+  margin: 2%;
+}
+.about-box-2{
+ background-color:  #F8F988;
+ margin: 2%;
+}
