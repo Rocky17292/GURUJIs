@@ -1,7 +1,9 @@
 #navbarNav{
-  background-color: #68B984;
   margin-top:0px;
 
+}
+.navbar{
+  background-color: #5ea021;
 }
 .nav-link:hover{
   background-color: #F8F988;
@@ -56,23 +58,24 @@
 /* <!-- =============================================================
                REVIEWS
 ============================================================= --> */
+.review-head{
+  padding: 3rem 0;
+  padding-bottom: 2.5rem;
+}
 .reviews{
   background-color: #97DECE;
 }
 .review-img{
   border-radius: 100%;
   height: 100px;
-
 }
 .review-box{
   margin: 4% 5%;
   background-color: #F8F988;
   border-radius: 50px;
+  padding: 1px;
 }
-.review-head{
-  padding: 3rem 0;
-  padding-bottom: 2.5rem;
-}
+
 /* <!-- =============================================================
                GET IN TOUCH
 ============================================================= --> */
@@ -85,9 +88,20 @@
 /* <!-- =============================================================
                CONTACT
 ============================================================= --> */
+.contact-h{
+  margin: 1rem auto 3rem auto;
+  background-color: #1A120B;
+  height: 110px;
+}
+.contact-h2{
+  padding-top: 40px;
+}
+/* .contact-h{
+  margin: 1rem auto 3rem auto;
+} */
 .contact-box{
   background-color: #97DECE;
-  margin: 5% 7%;
+  margin: 5% 7% 0 7%;
   padding: 5% 7%;
 }
 .contact-img{
@@ -96,28 +110,55 @@
 
   margin: 0.5rem auto;
 }
-.contact-h{
-  margin: 1rem auto 3rem auto;
-}
+
 /* <!-- =============================================================
                ABOUT US
 ============================================================= --> */
+.about-h{
+  padding: 3rem 2.5rem;
+}
 .baba{
   height: 100px;
   border-radius: 100%;
+  padding:0.5rem 0;
 }
 .dada{
   height: 100px;
   border-radius: 100%;
+  padding:0.5rem 0;
 }
 #br{
   height: 2px;
 }
 .about-box-1{
   background-color:  #F8F988;
-  margin: 2%;
+  padding: 1rem;
+  border:solid;
+  border-color:  black;
+  border-radius:20px;
 }
 .about-box-2{
  background-color:  #F8F988;
- margin: 2%;
+ padding: 1rem;
+ border:solid;
+ border-color:  black;
+ border-radius:20px;
+}
+
+/* <!-- =============================================================
+               FINAL TOUCH
+============================================================= --> */
+body{
+  padding:10px;
+}
+.footer{
+  background-color: #5ea021;
+  height: 100px;
+}
+.footer-text{
+padding-top: 40px;
+}
+.footer-text-a{
+  text-decoration: none;
+   color: #FDFF00;
 }
