@@ -7,7 +7,6 @@
 }
 .nav-link:hover{
   background-color: #F8F988;
-
 }
 .container{
   padding-top: 2rem;
@@ -161,4 +160,10 @@ padding-top: 40px;
 .footer-text-a{
   text-decoration: none;
    color: #FDFF00;
+}
+/* <!-- =============================================================
+               RESPONSIVENESS
+============================================================= --> */
+@media screen(min-width:800px) {
+
 }
