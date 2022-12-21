@@ -1,6 +1,5 @@
 #navbarNav{
-  margin-top:0px;
-
+  margin-top:0rem;
 }
 .navbar{
   background-color: #5ea021;
@@ -13,7 +12,7 @@
   text-align: center;
 }
 #cooked{
-  height: 100px;
+  height: 6.25rem;
   padding-bottom: 2.5rem;
   /* padding: 7% 15%; */
 }
@@ -28,10 +27,10 @@
 .book-h{
   margin: 3rem auto 3rem auto;
   background-color: #1A120B;
-  height: 110px;
+  height: 6.875rem;
 }
 .book-h2{
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 /* <!-- =============================================================
                FEATURES
@@ -40,12 +39,12 @@
   background-color: #FFFFFF;
 }
 #nature{
-  height: 100px;
+  height: 6.25rem;
   padding-bottom: 2.5rem;
   /* padding: 7% 15%; */
 }
 #clean{
-  height: 100px;
+  height: 6.25rem;
   padding-bottom: 2.5rem;
   /* padding: 7% 15%; */
 }
@@ -81,24 +80,24 @@
 .review-h{
   margin: 3rem auto 3rem auto;
   background-color: #1A120B;
-  height: 110px;
+  height: 6.875rem;
 }
 .review-h2{
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 .reviews{
   background-color: #97DECE;
-  padding-top: 12px;
+  padding-top: 0.75rem;
 }
 .review-img{
   border-radius: 100%;
-  height: 100px;
+  height: 6.25rem;
 }
 .review-box{
   margin: 4% 5%;
   background-color: #F8F988;
-  border-radius: 50px;
-  padding: 1px;
+  border-radius: 3.125rem;
+  padding: 0.0625rem;
 }
 
 /* <!-- =============================================================
@@ -119,10 +118,10 @@
 .contact-h{
   margin: 1rem auto 3rem auto;
   background-color: #1A120B;
-  height: 110px;
+  height: 6.875rem;
 }
 .contact-h2{
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 /* .contact-h{
   margin: 1rem auto 3rem auto;
@@ -134,7 +133,7 @@
 }
 .contact-img{
   border-radius: 100%;
-  height: 50px;
+  height: 3.125rem;
 
   margin: 0.5rem auto;
 }
@@ -150,46 +149,46 @@
   padding: 3rem 2.5rem;
 }
 .baba{
-  height: 100px;
+  height: 6.25rem;
   border-radius: 100%;
   padding:0.5rem 0;
 }
 .dada{
-  height: 100px;
+  height: 6.25rem;
   border-radius: 100%;
   padding:0.5rem 0;
 }
 #br{
-  height: 2px;
+  height: 0.125rem;
 }
 .about-box-1{
   background-color:  #F8F988;
   padding: 1rem;
   border:solid;
   border-color:  black;
-  border-radius:20px;
+  border-radius:1.25rem;
 }
 .about-box-2{
  background-color:  #F8F988;
  padding: 1rem;
  border:solid;
  border-color:  black;
- border-radius:20px;
+ border-radius:1.25rem;
 }
 
 /* <!-- =============================================================
                FINAL TOUCH
 ============================================================= --> */
 body{
-  padding:10px;
+  padding:0.625rem;
 
 }
 .footer{
   background-color: #5ea021;
-  height: 100px;
+  height: 6.25rem;
 }
 .footer-text{
-padding-top: 40px;
+padding-top: 2.5rem;
 }
 .footer-text-a{
   text-decoration: none;
@@ -198,3 +197,16 @@ padding-top: 40px;
 /* <!-- =============================================================
                RESPONSIVENESS
 ============================================================= --> */
+html{
+  font-size: 100%;
+}
+@media (max-width:998px) {
+  html{
+    font-size: 55%;
+  }
+}
+@media (max-width:768px) {
+  html{
+    font-size: 45%;
+  }
+}
