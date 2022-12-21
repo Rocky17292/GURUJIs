@@ -19,6 +19,21 @@
 }
 
 /* <!-- =============================================================
+               BOOK TABLE
+============================================================= --> */
+/* .review-head{
+  padding: 3rem 0;
+  padding-bottom: 2.5rem;
+} */
+.book-h{
+  margin: 3rem auto 3rem auto;
+  background-color: #1A120B;
+  height: 110px;
+}
+.book-h2{
+  padding-top: 40px;
+}
+/* <!-- =============================================================
                FEATURES
 ============================================================= --> */
 #feature{
@@ -59,12 +74,21 @@
 /* <!-- =============================================================
                REVIEWS
 ============================================================= --> */
-.review-head{
+/* .review-head{
   padding: 3rem 0;
   padding-bottom: 2.5rem;
+} */
+.review-h{
+  margin: 3rem auto 3rem auto;
+  background-color: #1A120B;
+  height: 110px;
+}
+.review-h2{
+  padding-top: 40px;
 }
 .reviews{
   background-color: #97DECE;
+  padding-top: 12px;
 }
 .review-img{
   border-radius: 100%;
