@@ -164,6 +164,14 @@ padding-top: 40px;
 /* <!-- =============================================================
                RESPONSIVENESS
 ============================================================= --> */
-@media screen(min-width:800px) {
+@media screen and (max-width:800px) {
 
+  .abt-text{
+    font-size: 1.5rem;
+  }
+
+  .nav-link{
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
 }
