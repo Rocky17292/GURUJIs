@@ -164,7 +164,7 @@ padding-top: 40px;
 /* <!-- =============================================================
                RESPONSIVENESS
 ============================================================= --> */
-@media screen and (max-width:800px) {
+@media screen and (max-width:320px) {
 
   .abt-text{
     font-size: 5rem;
