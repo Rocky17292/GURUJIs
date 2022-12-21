@@ -11,6 +11,9 @@
   padding-top: 2rem;
   text-align: center;
 }
+.nav-item{
+  margin: auto 2rem;
+}
 #cooked{
   height: 6.25rem;
   padding-bottom: 2.5rem;
